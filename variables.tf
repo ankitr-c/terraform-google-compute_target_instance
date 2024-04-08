@@ -1,9 +1,3 @@
-variable "depends_on" {
-  type        = list(string)
-  default     = []
-  description = "enter the resource or module on which the google_compute_target_instance module should depend"
-}
-
 variable "project" {
   type        = string
   default     = ""
